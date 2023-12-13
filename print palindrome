@@ -9,7 +9,7 @@ int main(){
   	while(i!=0){
   		remainder=i%10;
   		rev=rev*10+remainder;
-      i/=10;
+	        i/=10;
   	}
   	if(temp==rev)
     	printf("%d\n",i);
