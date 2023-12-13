@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-  int num,rev-0,remainder;
+  int num,rev=0,remainder;
   printf("Enter range of number: ");
   scanf("%d",&num);
   printf("Palindrome number are:-\n);
@@ -12,6 +12,6 @@ int main(){
 	        i/=10;
   	}
   	if(temp==rev)
-    	printf("%d\n",i);
+	    	printf("%d\n",i);
 	}
 }
