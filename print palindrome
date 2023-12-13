@@ -13,5 +13,5 @@ int main(){
   	}
   	if(temp==rev)
 	    	printf("%d\n",i);
-	}
+    }
 }
