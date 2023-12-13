@@ -1,0 +1,28 @@
+#include<stdio.h>
+int palindrome(int num)
+{
+	int remainder,rev=0;
+	printf("Enter a number");
+	scanf("%d",&num);
+	int temp=num;
+	while(num!=0)
+	{
+		remiander=num%10;
+		rev=rev*10+remainder;
+		num/=10;
+	}
+	if(temp==rev)
+		return 1;
+	else
+		return 0;
+}
+int mian(){
+	int num;
+	printf("Enter a number: ");
+	scanf("%d",&num);
+	int res = palindrome(num);
+	if(res == 1)
+		printf("Its a palindrome");
+	else
+		printf("Its not a palindrome");
+}
